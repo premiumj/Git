@@ -14,7 +14,7 @@ public class MainController {
 
 	private static final Logger logger= LoggerFactory.getLogger(MainController.class);
 	
-	@RequestMapping(value="/main",method = RequestMethod.GET)
+	@RequestMapping(value="/",method = RequestMethod.GET)
 	public String main(Locale locale) {
 		logger.info("Main boot-2 Page //"+locale);
 		return "main";
