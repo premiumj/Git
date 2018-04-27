@@ -17,7 +17,6 @@ public class MainController {
 	@RequestMapping(value="/",method = RequestMethod.GET)
 	public String main(Locale locale) {
 		logger.info("Main boot-2 Page //"+locale);
-		return "main";
-		
+		return "main";		
 	}
 }
