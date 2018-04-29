@@ -33,7 +33,7 @@ public class HomeController {
 		
 		String formattedDate = dateFormat.format(date);
 		
-		logger.info("akdlsoa1 암호화 = " + this.bcryptPasswordEncoder.encode("akdlsoa1"));
+		logger.info("TEST akdlsoa1 암호화 = " + this.bcryptPasswordEncoder.encode("akdlsoa1"));
 	
 		model.addAttribute("serverTime", formattedDate );
 		return "home";
